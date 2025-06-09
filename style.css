@@ -25,15 +25,3 @@ h2 {
     border: 5px black solid;
     margin:5px;
 }
-
-.carousel-slide {
-display: flex;
-justify-content: right;
-}
-
-.carousel-image {
-    width: 560px;
-    height: 315px;
-    display: flex;
-    justify-content: right;
-}
