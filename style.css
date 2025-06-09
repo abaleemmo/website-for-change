@@ -50,3 +50,7 @@ pre {
     font-size: 20px;
 }
 
+h4 {
+    display: flex;
+    justify-content: center;
+}
