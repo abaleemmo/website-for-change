@@ -24,6 +24,7 @@ h2 {
 .section {
     border: 5px black solid;
     margin:5px;
+    padding: 5px;
 }
 .big-container {
     display: flex;
