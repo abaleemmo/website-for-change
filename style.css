@@ -1,6 +1,7 @@
 /* The code below centers the text of all h1's on the page. */
 h1 {
     text-align:center;
+     color: #1b1b1b;
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
@@ -12,8 +13,19 @@ h1 {
 /* The code below centers the text of all h2's on the page. */
 h2 {
     text-align:center;
+     color: #1b1b1b;
+}
+h3 {
+     color: #1b1b1b;
 }
 
+p{
+     color: #37515f;
+}
+
+pre {
+    color: #1b1b1b;
+}
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
     display:flex;
@@ -22,7 +34,9 @@ h2 {
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
-    border: 5px black solid;
+    border: 5px;
+    border-style: solid;
+    color: #2a9fd6;
     margin:5px;
     padding: 5px;
 }
@@ -37,6 +51,7 @@ h2 {
     display: flex;
     flex: 1 1 45%;
     flex-wrap: nowrap;
+    border: 5px;
 }
 
 .video-box {
@@ -53,4 +68,9 @@ pre {
 h4 {
     display: flex;
     justify-content: center;
+    color: #003153;
+}
+
+body {
+    background-color: #e6f1f8;
 }
