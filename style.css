@@ -25,3 +25,21 @@ h2 {
     border: 5px black solid;
     margin:5px;
 }
+.big-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.text-box {
+    display: flex;
+    flex: 1 1 45%;
+    flex-wrap: nowrap;
+}
+
+.video-box {
+    display: flex;
+    flex: 1 1 45%;
+
+}
