@@ -28,5 +28,12 @@ h2 {
 
 .carousel-slide {
 display: flex;
-justify-content: center;
+justify-content: right;
+}
+
+.carousel-image {
+    width: 560px;
+    height: 315px;
+    display: flex;
+    justify-content: right;
 }
