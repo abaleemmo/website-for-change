@@ -65,8 +65,7 @@ pre {
     font-size: 20px;
 }
 
-h4 {
-    display: flex;
+.bottom-text {
     justify-content: center;
     color: #003153;
 }
